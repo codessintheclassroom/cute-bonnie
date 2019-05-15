@@ -34,12 +34,3 @@ describe('PetCard', () => {
         expect(getByText('Adopt')).toBeInTheDocument();
     });
 });
-
-/*
-describe('PetCard', () => {
-    it('should render the given description', () => {
-        const { getByText } = render(<PetCard pet={petMock}/>);
-        expect(getByText('Fido')).toBeInTheDocument();
-    });
-});
-*/
